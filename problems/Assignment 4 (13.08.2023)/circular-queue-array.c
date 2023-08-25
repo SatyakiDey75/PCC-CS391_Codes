@@ -14,8 +14,8 @@ void enqueue(){
         if (front==-1){
             front=0;
             rear=0;
-        }   
-            
+        }
+
         else if(rear==M-1 && front !=0)
             rear=0;
         else
@@ -46,10 +46,12 @@ void dqueue(){
     if (front==-1 && rear==-1)
         printf("Underflow\n");
     else{
+        printf("%d is deleted.\n",a[front]);
+
         if (front==M-1 && rear != front)
             front=0;
         else if(front == rear)
-            front =-1;
+            front =-1,rear=-1;
         else
             front ++;
     }

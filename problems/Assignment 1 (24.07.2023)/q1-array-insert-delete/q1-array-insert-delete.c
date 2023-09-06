@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int l,t,del,ins,el;
+    int l,t,del,ins,el,p;
     printf("Enter full length of array: ");
     scanf("%d",&l);
     int a[100];
@@ -30,10 +30,10 @@ int main() {
     if (ins<=l-1){
         t=a[ins];
         a[ins]=el;
-        for (int i=ins+1;i<l-1;i++){
-            
+        for (int i=ins;i<l-1;i++){
+            p=a[i];
             a[i]=t;
-            t=a[i+1];
+            t=p;
         }
         printf("Final array after insertion:\n");
         for(int i=0;i<l;i++)

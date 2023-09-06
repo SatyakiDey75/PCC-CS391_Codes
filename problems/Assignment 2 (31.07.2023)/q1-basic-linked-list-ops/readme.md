@@ -4,9 +4,9 @@
 
 Write a C program to perform the following operations on a linked list:
 
-1. Creation: Create a linked list by adding elements one by one.\
-2. Insertion at the beginning position: Insert a new element at the beginning of the linked list.\
-3. Display: Display all elements in the linked list.\
+1. Creation: Create a linked list by adding elements one by one.
+2. Insertion at the beginning position: Insert a new element at the beginning of the linked list.
+3. Display: Display all elements in the linked list.
 4. Exit: Exit the program.
 
 ## Linked List Operations
